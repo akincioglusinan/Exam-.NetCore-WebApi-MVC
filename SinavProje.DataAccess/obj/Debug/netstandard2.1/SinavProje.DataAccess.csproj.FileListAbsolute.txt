@@ -1,0 +1,14 @@
+C:\Users\sinan\source\repos\SinavProje\SinavProje.DataAccess\bin\Debug\netstandard2.1\SinavProje.DataAccess.deps.json
+C:\Users\sinan\source\repos\SinavProje\SinavProje.DataAccess\bin\Debug\netstandard2.1\SinavProje.DataAccess.dll
+C:\Users\sinan\source\repos\SinavProje\SinavProje.DataAccess\bin\Debug\netstandard2.1\SinavProje.DataAccess.pdb
+C:\Users\sinan\source\repos\SinavProje\SinavProje.DataAccess\obj\Debug\netstandard2.1\SinavProje.DataAccess.csprojAssemblyReference.cache
+C:\Users\sinan\source\repos\SinavProje\SinavProje.DataAccess\obj\Debug\netstandard2.1\SinavProje.DataAccess.AssemblyInfoInputs.cache
+C:\Users\sinan\source\repos\SinavProje\SinavProje.DataAccess\obj\Debug\netstandard2.1\SinavProje.DataAccess.AssemblyInfo.cs
+C:\Users\sinan\source\repos\SinavProje\SinavProje.DataAccess\obj\Debug\netstandard2.1\SinavProje.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\sinan\source\repos\SinavProje\SinavProje.DataAccess\obj\Debug\netstandard2.1\SinavProje.DataAccess.dll
+C:\Users\sinan\source\repos\SinavProje\SinavProje.DataAccess\obj\Debug\netstandard2.1\SinavProje.DataAccess.pdb
+C:\Users\sinan\source\repos\SinavProje\SinavProje.DataAccess\bin\Debug\netstandard2.1\SinavProje.Core.dll
+C:\Users\sinan\source\repos\SinavProje\SinavProje.DataAccess\bin\Debug\netstandard2.1\SinavProje.Entities.dll
+C:\Users\sinan\source\repos\SinavProje\SinavProje.DataAccess\bin\Debug\netstandard2.1\SinavProje.Core.pdb
+C:\Users\sinan\source\repos\SinavProje\SinavProje.DataAccess\bin\Debug\netstandard2.1\SinavProje.Entities.pdb
+C:\Users\sinan\source\repos\SinavProje\SinavProje.DataAccess\obj\Debug\netstandard2.1\SinavProje.DataAccess.csproj.CopyComplete

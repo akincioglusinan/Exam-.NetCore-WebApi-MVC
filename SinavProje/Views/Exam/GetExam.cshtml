@@ -1,0 +1,97 @@
+﻿@model ExamViewModel
+
+@{
+    ViewData["Title"] = "GetExam";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row justify-content-md-center">
+                <div class="col-auto">
+                    <button class="btn btn-block" id=""><h4>@Model.Exam.Title</h4></button>
+                </div>
+            </div>
+    <div id="myDIV-@Model.Exam.Id">
+        <div class="row justify-content-md-center">
+            <div class="col-auto">
+                @Model.Exam.Content
+            </div>
+        </div>
+
+        <form id="getExamForm" name="getExamForm" class="form" >
+            @{
+                foreach (var question in Model.Questions)
+                {
+
+                    <div class="row justify-content-md-center">
+                        <div class="col my-3" id="Q1">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="inputGroup-sizing-default">Question @question.QNumber</span>
+                                </div>
+                                <span style="height: 100%" rows="5" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="" id="" value="" disabled>@question.Q</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-md-center">
+                        <div class="col" id="myDIV-@question.Id">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <input type="checkbox" class="radio @question.QNumber" value="A" name="fooby[@question.QNumber][]" aria-label="Checkbox for following text input">
+                                        <span>A)</span>
+                                    </div>
+                                </div>
+                                <span type="text" style="height: 100%" class="form-control" aria-label="Text input with checkbox" id="A-@question.QNumber">@question.A</span>
+                            </div>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <input type="checkbox" class="radio @question.QNumber" value="B" name="fooby[@question.QNumber][]" aria-label="Checkbox for following text input">
+                                        <span>B)</span>
+                                    </div>
+                                </div>
+                                <span type="text" style="height: 100%" class="form-control" name="fooby[@question.QNumber][]" aria-label="Text input with checkbox" id="B-@question.QNumber">@question.B</span>
+                            </div>
+                        </div>
+                        <div class="col-6" id="myDIV-@question.Id">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <input type="checkbox" class="radio @question.QNumber" value="C" name="fooby[@question.QNumber][]" aria-label="Checkbox for following text input">
+                                        <span>C)</span>
+                                    </div>
+                                </div>
+                                <span type="text" style="height: 100%" class="form-control" aria-label="Text input with checkbox" id="C-@question.QNumber">@question.C</span>
+                            </div>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <input type="checkbox" class="radio @question.QNumber" value="D" name="fooby[@question.QNumber][]" aria-label="Checkbox for following text input">
+                                        <span>D)</span>
+                                    </div>
+                                </div>
+                                <span type="text" style="height: 100%" class="form-control" aria-label="Text input with checkbox" id="D-@question.QNumber">@question.D</span>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+            <div class="row justify-content-md-center">
+                <div class="col my-5 text-center" id="create">
+                    <input class="btn btn-outline-success btn-lg btn-block" id="getExamBtn" name="getExamBtn" type="submit" value="Submit"/>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<script>
+    var A1 = '@Model.Questions[0].Answer';
+    var A2 = '@Model.Questions[1].Answer';
+    var A3 = '@Model.Questions[2].Answer';
+    var A4 = '@Model.Questions[3].Answer';
+</script>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>

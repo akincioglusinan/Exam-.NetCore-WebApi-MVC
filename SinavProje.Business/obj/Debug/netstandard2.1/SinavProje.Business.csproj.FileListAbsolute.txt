@@ -1,0 +1,16 @@
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Business\bin\Debug\netstandard2.1\SinavProje.Business.deps.json
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Business\bin\Debug\netstandard2.1\SinavProje.Business.dll
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Business\bin\Debug\netstandard2.1\SinavProje.Business.pdb
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Business\obj\Debug\netstandard2.1\SinavProje.Business.csprojAssemblyReference.cache
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Business\obj\Debug\netstandard2.1\SinavProje.Business.AssemblyInfoInputs.cache
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Business\obj\Debug\netstandard2.1\SinavProje.Business.AssemblyInfo.cs
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Business\obj\Debug\netstandard2.1\SinavProje.Business.csproj.CoreCompileInputs.cache
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Business\obj\Debug\netstandard2.1\SinavProje.Business.dll
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Business\obj\Debug\netstandard2.1\SinavProje.Business.pdb
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Business\bin\Debug\netstandard2.1\SinavProje.Core.dll
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Business\bin\Debug\netstandard2.1\SinavProje.DataAccess.dll
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Business\bin\Debug\netstandard2.1\SinavProje.Entities.dll
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Business\bin\Debug\netstandard2.1\SinavProje.Core.pdb
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Business\bin\Debug\netstandard2.1\SinavProje.DataAccess.pdb
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Business\bin\Debug\netstandard2.1\SinavProje.Entities.pdb
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Business\obj\Debug\netstandard2.1\SinavProje.Business.csproj.CopyComplete
