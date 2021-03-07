@@ -24,7 +24,7 @@ namespace SinavProje.Business.Concrete
         }
 
 
-        public IDataResult<User> Register(RegisterRequest request, string password)
+        public async Task<IDataResult<User>> Register(RegisterRequest request, string password)
         {
             HashingHelper.CreatePasswordHash(password, out byte[] passwordHash,
                 out byte[] passwordSalt);
@@ -37,29 +37,29 @@ namespace SinavProje.Business.Concrete
                 Status = true,
                 UserName = request.UserName
             };
-            _userService.Add(user);
+            await _userService.Add(user);
             return new SuccessDataResult<User>(user, Messages.UserRegistered);
         }
 
-        public IDataResult<User> Login(LoginRequest request)
+        public async Task<IDataResult<User>> Login(LoginRequest request)
         {
-            var userToCheck = _userService.GetUserByEmail(request.Email);
-            if (userToCheck.Result.Data == null)
+            var userToCheck = await _userService.GetUserByEmail(request.Email);
+            if (userToCheck.Data == null)
             {
                 return new ErrorDataResult<User>(Messages.UserNotFound);
             }
-            if (!HashingHelper.VerifyPasswordHash(request.Password, userToCheck.Result.Data.PasswordHash, userToCheck.Result.Data.PasswordSalt))
+            if (!HashingHelper.VerifyPasswordHash(request.Password, userToCheck.Data.PasswordHash, userToCheck.Data.PasswordSalt))
             {
                 return new ErrorDataResult<User>(Messages.PasswordError);
             }
 
-            return new SuccessDataResult<User>(userToCheck.Result.Data, Messages.SuccessfulLogin);
+            return new SuccessDataResult<User>(userToCheck.Data, Messages.SuccessfulLogin);
         }
 
-        public IResult UserExist(string email)
+        public async Task<IResult> UserExist(string email)
         {
-            var result = _userService.GetUserByEmail(email);
-            if (result.Result.Success)
+            var result = await _userService.GetUserByEmail(email);
+            if (result.Success)
             {
                 return new ErrorResult(Messages.UserAlreadyExists);
             }

@@ -2,49 +2,51 @@
 using System.Collections.Generic;
 using System.Text;
 using SinavProje.Entities.Concrete;
+using SinavProje.Entities.Concrete.ClientEntities.Response;
 using SinavProje.Entities.Concrete.Entities;
 
 namespace SinavProje.Business.Constants
 {
     public static class Messages
     {
-        public static string ExamAdded = "Sınav başarıyla eklendi.";
-        public static string ExamUpdated = "Sınav başarıyla güncellendi.";
-        public static string ExamDeleted = "Sınav silindi.";
+        public static string ExamAdded = "The exam successfully added.";
+        public static string ExamUpdated = "The exam successfully updated.";
+        public static string ExamDeleted = "The exam removed.";
 
-        public static string ExamAddError = "Sınav eklenirken hata oluştu.";
-        public static string ExamDeleteError = "Sınav silinirken hata oluştu.";
+        public static string ExamAddError = "An error occurred while adding the exam.";
+        public static string ExamDeleteError = "An error occurred while removing the exam.";
 
-        public static string GetExamError = "Sınav getirilirken hata oluştu.";
-        public static string GetExamsError = "Sınavlar getirilirken hata oluştu.";
-        public static string ExamUpdateError = "Sınav güncellenirken hata oluştu";
+        public static string GetExamError = "Error occurred while getting the exam.";
+        public static string GetExamsError = "Error occurred while getting the exams.";
+        public static string ExamUpdateError = "Error occurred while updating the exam.";
 
-        public static string GetQuestionsError = "Tüm sorular getirilirken hata oluştu.";
-        public static string GetQuestionsByExamError = "Sınav soruları getirilirken hata oluştu.";
-        public static string GetQuestionError = "Soru getirilirken hata oluştu.";
-        public static string QuestionAddError = "Soru eklenirken hata oluştu.";
-        public static string QuestionUpdateError = "Soru güncellenirken hata oluştu.";
-        public static string QuestionDeleteError = "Soru silinirken hata oluştu.";
+        public static string GetQuestionsError = "Error occurred while getting the questions.";
+        public static string GetQuestionsByExamError = "Error occurred while getting the exam questions.";
+        public static string GetQuestionError = "Error occurred while getting the questions.";
+        public static string QuestionAddError = "Error occurred while adding the question.";
+        public static string QuestionUpdateError = "Error occurred while updating the question.";
+        public static string QuestionDeleteError = "Error occurred while deleting the question.";
 
-        public static string QuestionAdded = "Soru başarıyla eklendi.";
-        public static string QuestionUpdated = "Soru başarıyla güncellendi.";
-        public static string QuestionDeleted = "Soru başarıyla silindi.";
-        public static string GetUsersError = "Üyeler getirilirken hata oluştu.";
-        public static string GetUserError = "Üyeler getirilirken hata oluştu.";
+        public static string QuestionAdded = "The questions successfully added.";
+        public static string QuestionUpdated = "The questions successfully updated.";
+        public static string QuestionDeleted = "The questions successfully deleted.";
 
-        public static string UserAddError = "Üye eklenirken hata oluştu.";
-        public static string UserAdded = "Üye başarıyla eklendi.";
-        public static string UserUpdateError = "Üye güncellenirken hata oluştu.";
+        public static string GetUsersError = "Error occurred while getting the users.";
+        public static string GetUserError = "Error occurred while getting the user.";
+        public static string UserAddError = "Error occurred while adding the user.";
+        public static string UserUpdateError = "Error occurred while updating the user.";
+        public static string UserDeleteError = "Error occurred while updating the user.";
 
-        public static string UserUpdated = "Üye başarıyla güncellendi.";
-        public static string UserDeleteError = "Üye silinirken hata oluştu.";
-        public static string UserDeleted = "Üye başarıyla silindi.";
+        public static string UserAdded = "The user successfully added.";
+        public static string UserUpdated = "The user successfully updated.";
+        public static string UserDeleted = "The user removed.";
 
-        public static string UserNotFound = "Bu email adresi ile kayıtlı bir kullanıcı bulunamadı!";
-        public static string PasswordError = "Parola hatalı!";
-        public static string SuccessfulLogin = "Giriş başarılı.";
-        public static string UserAlreadyExists = "Email kullanılıyor!";
-        public static string UserRegistered = "Kullanıcı başarıyla kaydedildi.";
-        public static string AccessTokenCreated = "Token oluşturuldu.";
+        public static string UserNotFound = "There is no any user who is registered the email address.";
+        public static string PasswordError = "Password incorrect!";
+        public static string SuccessfulLogin = "Login successful!";
+        public static string UserAlreadyExists = "The Email Address is already exist!";
+        public static string UserRegistered = "The user successfully registered.";
+        public static string AccessTokenCreated = "Token successfully created.";
+        public static string GetArticlesError = "Error occurred while getting articles!";
     }
 }

@@ -1,14 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
+﻿using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using SinavProje.Business.Abstract;
-using SinavProje.Core.Utilities.Results;
 using SinavProje.Entities.Concrete.ClientEntities.Request;
-using SinavProje.Entities.Concrete.Entities;
 using SinavProje.Extensions;
 using SinavProje.Models;
 
@@ -33,9 +27,9 @@ namespace SinavProje.Controllers
         }
 
         [HttpPost]
-        public IActionResult Index(LoginRequest request)
+        public async Task<IActionResult> Index(LoginRequest request)
         {
-            var userToLogin = _authService.Login(request);
+            var userToLogin =await _authService.Login(request);
             if (!userToLogin.Success)
             {
                 var error = new ErrorViewModel{Error=userToLogin.Message};
@@ -44,20 +38,9 @@ namespace SinavProje.Controllers
             else
             {
                 HttpContext.Session.SetObject("user", userToLogin.Data);
-               var x= HttpContext.Session.GetObject<User>("user");
                 return Redirect("/Home/Index");
             }
 
-            //var result = _authService.CreateAccessToken(userToLogin.Data);
-            //if (result.Success)
-            //{
-               
-            //    return Redirect("/Home/Index");
-            //}
-            //else
-            //{
-            //    return View(result.Message);
-            //}
         }
 
         public IActionResult Logout()
@@ -76,35 +59,26 @@ namespace SinavProje.Controllers
         }
 
         [HttpPost]
-        public IActionResult Register(RegisterRequest request)
+        public async Task<IActionResult> Register(RegisterRequest request)
         {
-            var userExist = _authService.UserExist(request.Email);
+            var userExist = await _authService.UserExist(request.Email);
             var error = new ErrorViewModel();
+
             if (!userExist.Success)
             {
                 error.Error = userExist.Message;
                 return View(error);
             }
 
-            var registerResult = _authService.Register(request, request.Password);
-            //var result = _authService.CreateAccessToken(registerResult.Data);
+            var registerResult = await _authService.Register(request, request.Password);
+
             if (registerResult.Success)
             {
                 return Redirect("/Home/Index");
             }
-            else
-            {
-                error.Error = registerResult.Message;
-                return View(error);
-            }
+            
+            error.Error = registerResult.Message;
+            return View(error);
         }
-
-        //[HttpPost]
-        //public async Task<IActionResult> Register(User user)
-        //{
-        //    await _context.AddAsync(user);
-        //    await _context.SaveChangesAsync();
-        //    return Redirect("Index");
-        //}
     }
 }

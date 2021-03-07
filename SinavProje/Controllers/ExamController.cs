@@ -1,12 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using SinavProje.Business.Abstract;
 using SinavProje.Entities.Concrete.ClientEntities.Request;
-using SinavProje.Entities.Concrete.Entities;
-using SinavProje.Extensions;
 using SinavProje.Filter;
 using SinavProje.Models;
 
@@ -17,26 +12,28 @@ namespace SinavProje.Controllers
     {
         private readonly IExamService _examService;
         private readonly IQuestionService _questionService;
-        private readonly IArticlesService _articlesService;
 
-        public ExamController(IExamService examService, IArticlesService articlesService, IQuestionService questionService)
+        public ExamController(IExamService examService, IQuestionService questionService)
         {
             _examService = examService;
-            _articlesService = articlesService;
             _questionService = questionService;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View(_examService.GetExams().Result.Data);
+            var result =await _examService.GetExams();
+
+            return View(result);
         }
 
         [HttpGet("/{id}/{title}")]
-        public IActionResult GetExam(int id, string title)
+        public async Task<IActionResult> GetExam(int id, string title)
         {
+            var resultExam = await _examService.GetExam(id);
+            var resultQuestions = await _questionService.GetQuestionsByExamId(id);
             ExamViewModel model = new ExamViewModel
             {
-                Exam = _examService.GetExam(id).Result.Data,
-                Questions = _questionService.GetQuestionsByExamId(id).Result.Data
+                Exam =  resultExam,
+                Questions = resultQuestions
             };
 
             return View(model);

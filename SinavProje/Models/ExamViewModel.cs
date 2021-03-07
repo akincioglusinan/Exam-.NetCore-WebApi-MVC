@@ -10,7 +10,7 @@ namespace SinavProje.Models
     public class ExamViewModel
     {
         
-        public Exam Exam { get; set; }
-        public List<Question> Questions { get; set; }
+        public IDataResult<Exam> Exam { get; set; }
+        public IDataResult<List<Question>> Questions { get; set; }
     }
 }

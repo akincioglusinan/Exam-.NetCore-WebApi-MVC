@@ -11,10 +11,10 @@ namespace SinavProje.Business.Abstract
 {
     public interface IAuthService
     {
-        IDataResult<User> Register(RegisterRequest request, string password);
-        IDataResult<User> Login(LoginRequest request);
+        Task<IDataResult<User>> Register(RegisterRequest request, string password);
+        Task<IDataResult<User>> Login(LoginRequest request);
 
-        IResult UserExist(string email);
+        Task<IResult> UserExist(string email);
         IDataResult<AccessToken> CreateAccessToken(User user);
     }
 }

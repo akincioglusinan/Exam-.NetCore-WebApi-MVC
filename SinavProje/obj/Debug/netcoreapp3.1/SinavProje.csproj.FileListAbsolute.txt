@@ -63,11 +63,7 @@ C:\Users\sinan\source\repos\SinavProje\SinavProje\obj\Debug\netcoreapp3.1\SinavP
 C:\Users\sinan\source\repos\SinavProje\SinavProje\obj\Debug\netcoreapp3.1\SinavProje.RazorCoreGenerate.cache
 C:\Users\sinan\source\repos\SinavProje\SinavProje\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\sinan\source\repos\SinavProje\SinavProje\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Users\sinan\source\repos\SinavProje\SinavProje\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\sinan\source\repos\SinavProje\SinavProje\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\sinan\source\repos\SinavProje\SinavProje\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\sinan\source\repos\SinavProje\SinavProje\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
-C:\Users\sinan\source\repos\SinavProje\SinavProje\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\sinan\source\repos\SinavProje\SinavProje\obj\Debug\netcoreapp3.1\SinavProje.RazorTargetAssemblyInfo.cache
 C:\Users\sinan\source\repos\SinavProje\SinavProje\obj\Debug\netcoreapp3.1\SinavProje.RazorTargetAssemblyInfo.cs
 C:\Users\sinan\source\repos\SinavProje\SinavProje\obj\Debug\netcoreapp3.1\SinavProje.Views.pdb
@@ -439,3 +435,7 @@ C:\Users\sinan\source\repos\SinavProje\SinavProje\bin\Debug\netcoreapp3.1\Micros
 C:\Users\sinan\source\repos\SinavProje\SinavProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\sinan\source\repos\SinavProje\SinavProje\obj\Debug\netcoreapp3.1\Razor\Views\Exam\GetExam.cshtml.g.cs
 C:\Users\sinan\source\repos\SinavProje\SinavProje\obj\Debug\netcoreapp3.1\Razor\Views\Exam\Index.cshtml.g.cs
+C:\Users\sinan\source\repos\SinavProje\SinavProje\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\sinan\source\repos\SinavProje\SinavProje\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\sinan\source\repos\SinavProje\SinavProje\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\sinan\source\repos\SinavProje\SinavProje\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs

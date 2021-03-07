@@ -4,15 +4,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using SinavProje.Business.Abstract;
+using SinavProje.Entities.Concrete.ClientEntities.Request;
 
 namespace SinavProje.Api.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class AuthController : Controller
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
 
         private readonly IAuthService _authService;
 
@@ -22,9 +21,9 @@ namespace SinavProje.Api.Controllers
         }
 
         [HttpPost("login")]
-        public IActionResult Login(UserForLoginDto userForLoginDto)
+        public async Task<IActionResult> Login(LoginRequest request)
         {
-            var userToLogin = _authService.Login(userForLoginDto);
+            var userToLogin = await _authService.Login(request);
             if (!userToLogin.Success)
             {
                 return BadRequest(userToLogin.Message);
@@ -41,15 +40,15 @@ namespace SinavProje.Api.Controllers
         }
 
         [HttpPost("register")]
-        public IActionResult Register(UserForRegisterDto userForRegisterDto)
+        public async Task<IActionResult> Register(RegisterRequest request)
         {
-            var userExists = _authService.UserExist(userForRegisterDto.Email);
+            var userExists = await _authService.UserExist(request.Email);
             if (!userExists.Success)
             {
                 return BadRequest(userExists.Message);
             }
 
-            var registerResult = _authService.Register(userForRegisterDto, userForRegisterDto.Password);
+            var registerResult = await _authService.Register(request, request.Password);
             var result = _authService.CreateAccessToken(registerResult.Data);
             if (result.Success)
             {
