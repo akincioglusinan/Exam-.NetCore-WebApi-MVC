@@ -1,13 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using SinavProje.Business.Abstract;
 using SinavProje.Entities.Concrete.ClientEntities.Request;
-using SinavProje.Entities.Concrete.Entities;
 
 namespace SinavProje.Api.Controllers
 {

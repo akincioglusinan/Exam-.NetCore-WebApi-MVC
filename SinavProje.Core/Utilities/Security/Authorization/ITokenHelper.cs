@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using SinavProje.Entities.Concrete.Entities;
+﻿using SinavProje.Entities.Concrete.Entities;
 
 namespace SinavProje.Core.Utilities.Security.Authorization
 {

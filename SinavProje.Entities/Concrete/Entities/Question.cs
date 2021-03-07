@@ -1,5 +1,4 @@
-﻿using SinavProje.Entities.Abstract.Entities;
-using SinavProje.Entities.Abstract.Entities.Base;
+﻿using SinavProje.Entities.Abstract.Entities.Base;
 using SinavProje.Entities.Concrete.Entities.Base;
 
 namespace SinavProje.Entities.Concrete.Entities

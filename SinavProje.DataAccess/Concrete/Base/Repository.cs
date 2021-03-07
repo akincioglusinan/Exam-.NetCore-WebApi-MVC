@@ -4,10 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.ChangeTracking;
 using SinavProje.DataAccess.Abstract.Base;
-using SinavProje.Entities.Abstract;
-using SinavProje.Entities.Abstract.Entities;
 using SinavProje.Entities.Abstract.Entities.Base;
 
 namespace SinavProje.DataAccess.Concrete.Base

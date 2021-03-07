@@ -1,7 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using SinavProje.Models;
-using System.Diagnostics;
 using System.Threading.Tasks;
 using SinavProje.Filter;
 using SinavProje.Business.Abstract;

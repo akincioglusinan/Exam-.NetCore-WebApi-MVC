@@ -1,14 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
 using System.Threading.Tasks;
 using SinavProje.Business.Abstract;
 using SinavProje.Business.Constants;
 using SinavProje.Core.Utilities.Results;
-using SinavProje.Entities;
 using SinavProje.DataAccess.Abstract;
-using SinavProje.Entities.Concrete;
 using SinavProje.Entities.Concrete.ClientEntities.Request;
 using SinavProje.Entities.Concrete.Entities;
 

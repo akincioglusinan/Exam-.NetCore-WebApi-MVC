@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using SinavProje.Core.Utilities.Results;
 using SinavProje.Entities.Concrete.ClientEntities.Response;

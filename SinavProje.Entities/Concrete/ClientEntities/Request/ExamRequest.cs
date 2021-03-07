@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using SinavProje.Entities.Concrete.Entities;
 
 namespace SinavProje.Entities.Concrete.ClientEntities.Request

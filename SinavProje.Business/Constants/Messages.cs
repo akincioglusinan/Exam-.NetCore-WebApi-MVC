@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using SinavProje.Entities.Concrete;
-using SinavProje.Entities.Concrete.ClientEntities.Response;
-using SinavProje.Entities.Concrete.Entities;
-
-namespace SinavProje.Business.Constants
+﻿namespace SinavProje.Business.Constants
 {
     public static class Messages
     {

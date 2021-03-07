@@ -1,5 +1,3 @@
-using System;
-
 namespace SinavProje.Models
 {
     public class ErrorViewModel

@@ -1,5 +1,4 @@
 ﻿using System;
-using SinavProje.Entities.Abstract.Entities;
 using SinavProje.Entities.Abstract.Entities.Base;
 using SinavProje.Entities.Concrete.Entities.Base;
 
