@@ -7,7 +7,7 @@ The project has been designed two different parts, .Net Core MVC and the other o
 MVC and Api have been deployed to my own host service.
 
 # .Net Core Api
-Web-Api side is alive on https://api.exam.logospathos.com/ and UI side https://createxam.netlify.com. For testing; email:admin@admin.com password:admin
+Web-Api side is alive on https://api.exam.logospathos.com/ and UI side https://createxam.netlify.com. I designed UI side by React.js. For testing; email:admin@admin.com password:admin
 
 
 # .Net Core MVC
