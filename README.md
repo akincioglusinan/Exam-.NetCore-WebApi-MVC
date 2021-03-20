@@ -119,8 +119,40 @@ For example;
         ]
     }
 
+## Authentication Operations
 
+### Register
+To having an account requests POST in Postman;
 
+`https://api.exam.logospathos.com/auth/register`
+
+Body:
+ 
+    {
+    "name":"ali",
+    "username":"aliveli",
+    "email":"aliveli@dot.com",
+    "password":"54321"
+    }
+    
+
+### Login
+If the register request returned 200 ok, you can login and get the Token code with following JSON code,
+
+Body:
+    {
+    "email":"aliveli@dot.com",
+    "password":"54321"
+    }
+it will return such like a Json code, 
+    {
+        "token":            "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiZW1haWwiOiJzaW5hbkBkb3QuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6InNpbmFuIiwiVXNlck5hbWUiOiJzaW5hbiIsIm5iZiI6MTYxNjI2NjU0NSwiZXhwIjoxNjE2MjczNzQ0LCJpc3MiOiJ3d3cubG9nb3NwYXRob3MuY29tIiwiYXVkIjoiU2luYW4gQWvEsW5jxLFvxJ9sdSJ9.shrcJj7AkfFTbPCi0qZLRop-p451-WJqMOCOoyaw9Eg",
+    "expiration": "2021-03-20T23:55:44.4585817+03:00",
+    "userId": 1,
+    "userName": "aliveli",
+    "name": "ali",
+    "email": "aliveli@dot.com"
+      }
 # .Net Core MVC
 
 The .Net Core MVC part is alive on https://exam.logospathos.com/
