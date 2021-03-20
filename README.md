@@ -40,7 +40,7 @@ After you get bearer token, you should select Authorization tab in Postman, and 
 
 `https://api.exam.logospathos.com/exam/addexam`
 
-{
+    {
     "exam": {
         "userId": 3,
         "title": "People Who Text While Walking Actually Do Ruin Everything",
@@ -48,7 +48,7 @@ After you get bearer token, you should select Authorization tab in Postman, and 
         "dateTime": "2021-03-17 21:36:14",
         "id": 64
     },
-    "questions": [
+    "questions":    [
         {
             "examId": 64,
             "qNumber": 1,
@@ -71,8 +71,8 @@ After you get bearer token, you should select Authorization tab in Postman, and 
             "answer": "A",
             "id": 118
         }
-    ]
-}
+        ]
+    }
 
 Select POST operation lastly and send. If it will return status code 200 and will be added.
 
@@ -96,7 +96,7 @@ For example;
 
  This will return the following JSON data:
 
-{
+    {
     "exam": {
         "userId": 3,
         "title": "People Who Text While Walking Actually Do Ruin Everything",
@@ -104,7 +104,7 @@ For example;
         "dateTime": "2021-03-17 21:36:14",
         "id": 64
     },
-    "questions": [
+    "questions":    [
         {
             "examId": 64,
             "qNumber": 1,
@@ -116,8 +116,8 @@ For example;
             "answer": "A",
             "id": 118
         }
-    ]
-}
+        ]
+    }
 
 
 
