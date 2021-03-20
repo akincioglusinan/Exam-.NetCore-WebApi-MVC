@@ -27,9 +27,13 @@ namespace SinavProje.Api
             services.AddEntityFrameworkSqlite().AddDbContext<SqLiteDbContext>();
             services.AddCors(options =>
             {
-                options.AddPolicy("AllowOrigin",
-                    builder => builder.WithOrigins("http://localhost:3000"));
-            }); //localhost:3000(webapi)'den gelen isteklere izin ver.
+                options.AddPolicy("foo",
+                    builder =>
+                    {
+                        // Not a permanent solution, but just trying to isolate the problem
+                        builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+                    });
+            });
 
             services.AddJwtTokenOptions(Configuration);
 
@@ -61,13 +65,11 @@ namespace SinavProje.Api
             {
                 app.UseDeveloperExceptionPage();
             }
-            app.UseCors(builder => builder.WithOrigins("http://localhost:3000").AllowAnyMethod().AllowAnyHeader());
-            app.UseStaticFiles();
             app.UseHttpsRedirection();
-
             app.UseRouting();
+            app.UseCors("foo");
+            app.UseStaticFiles();
             app.UseAuthentication();
-
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

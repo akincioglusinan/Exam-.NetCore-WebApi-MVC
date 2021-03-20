@@ -25,6 +25,12 @@ namespace SinavProje.Business.Concrete
         {
             try
             {
+                if (request.Questions.Count < 1)
+                {
+                    return new ErrorResult(Messages.QuestionLimit);
+                }
+
+                request.Exam.DateTime= DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
                 int examId=await _examRepository.Add(request.Exam);
 
                 foreach (var question in request.Questions)

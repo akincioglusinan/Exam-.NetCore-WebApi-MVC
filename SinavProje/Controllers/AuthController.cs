@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using SinavProje.Business.Abstract;
 using SinavProje.Entities.Concrete.ClientEntities.Request;
+using SinavProje.Entities.Concrete.Entities;
 using SinavProje.Extensions;
 using SinavProje.Models;
 
@@ -19,7 +20,7 @@ namespace SinavProje.Controllers
 
         public IActionResult Index()
         {
-            if (HttpContext.Session.GetInt32("id").HasValue)
+            if (HttpContext.Session.GetObject<User>("user")!=null)
             {
                 return Redirect("/Home/Index");
             }
@@ -51,7 +52,7 @@ namespace SinavProje.Controllers
 
         public IActionResult Register()
         {
-            if (HttpContext.Session.GetInt32("id").HasValue)
+            if (HttpContext.Session.GetObject<User>("user") != null)
             {
                 return Redirect("/Home/Index");
             }

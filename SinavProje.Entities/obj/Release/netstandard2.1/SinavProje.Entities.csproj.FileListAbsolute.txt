@@ -1,0 +1,9 @@
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Entities\bin\Release\netstandard2.1\SinavProje.Entities.deps.json
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Entities\bin\Release\netstandard2.1\SinavProje.Entities.dll
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Entities\bin\Release\netstandard2.1\SinavProje.Entities.pdb
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Entities\obj\Release\netstandard2.1\SinavProje.Entities.csprojAssemblyReference.cache
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Entities\obj\Release\netstandard2.1\SinavProje.Entities.AssemblyInfoInputs.cache
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Entities\obj\Release\netstandard2.1\SinavProje.Entities.AssemblyInfo.cs
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Entities\obj\Release\netstandard2.1\SinavProje.Entities.csproj.CoreCompileInputs.cache
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Entities\obj\Release\netstandard2.1\SinavProje.Entities.dll
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Entities\obj\Release\netstandard2.1\SinavProje.Entities.pdb

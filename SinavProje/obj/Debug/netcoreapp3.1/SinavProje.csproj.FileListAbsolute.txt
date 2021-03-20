@@ -429,10 +429,7 @@ C:\Users\sinan\source\repos\SinavProje\SinavProje\bin\Debug\netcoreapp3.1\SinavP
 C:\Users\sinan\source\repos\SinavProje\SinavProje\bin\Debug\netcoreapp3.1\SinavProje.Core.pdb
 C:\Users\sinan\source\repos\SinavProje\SinavProje\bin\Debug\netcoreapp3.1\SinavProje.DataAccess.pdb
 C:\Users\sinan\source\repos\SinavProje\SinavProje\bin\Debug\netcoreapp3.1\SinavProje.Entities.pdb
-C:\Users\sinan\source\repos\SinavProje\SinavProje\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\sinan\source\repos\SinavProje\SinavProje\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-C:\Users\sinan\source\repos\SinavProje\SinavProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
-C:\Users\sinan\source\repos\SinavProje\SinavProje\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\sinan\source\repos\SinavProje\SinavProje\obj\Debug\netcoreapp3.1\Razor\Views\Exam\GetExam.cshtml.g.cs
 C:\Users\sinan\source\repos\SinavProje\SinavProje\obj\Debug\netcoreapp3.1\Razor\Views\Exam\Index.cshtml.g.cs
 C:\Users\sinan\source\repos\SinavProje\SinavProje\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs

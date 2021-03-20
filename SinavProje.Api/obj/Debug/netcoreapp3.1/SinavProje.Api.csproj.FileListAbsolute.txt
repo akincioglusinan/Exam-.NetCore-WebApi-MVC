@@ -75,3 +75,5 @@ C:\Users\sinan\source\repos\SinavProje\SinavProje.Api\bin\Debug\netcoreapp3.1\Si
 C:\Users\sinan\source\repos\SinavProje\SinavProje.Api\bin\Debug\netcoreapp3.1\SinavProje.DataAccess.pdb
 C:\Users\sinan\source\repos\SinavProje\SinavProje.Api\bin\Debug\netcoreapp3.1\SinavProje.Entities.pdb
 C:\Users\sinan\source\repos\SinavProje\SinavProje.Api\obj\Debug\netcoreapp3.1\SinavProje.Api.csproj.CopyComplete
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Api\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll

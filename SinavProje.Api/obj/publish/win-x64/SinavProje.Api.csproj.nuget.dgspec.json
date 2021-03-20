@@ -1,0 +1,414 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Api\\SinavProje.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Api\\SinavProje.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Api\\SinavProje.Api.csproj",
+        "projectName": "SinavProje.Api",
+        "projectPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Api\\SinavProje.Api.csproj",
+        "packagesPath": "C:\\Users\\sinan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Api\\obj\\publish\\win-x64\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sinan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Business\\SinavProje.Business.csproj": {
+                "projectPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Business\\SinavProje.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Business\\SinavProje.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Business\\SinavProje.Business.csproj",
+        "projectName": "SinavProje.Business",
+        "projectPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Business\\SinavProje.Business.csproj",
+        "packagesPath": "C:\\Users\\sinan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sinan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Core\\SinavProje.Core.csproj": {
+                "projectPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Core\\SinavProje.Core.csproj"
+              },
+              "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.DataAccess\\SinavProje.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.DataAccess\\SinavProje.DataAccess.csproj"
+              },
+              "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Entities\\SinavProje.Entities.csproj": {
+                "projectPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Entities\\SinavProje.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.30, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Core\\SinavProje.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Core\\SinavProje.Core.csproj",
+        "projectName": "SinavProje.Core",
+        "projectPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Core\\SinavProje.Core.csproj",
+        "packagesPath": "C:\\Users\\sinan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sinan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Entities\\SinavProje.Entities.csproj": {
+                "projectPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Entities\\SinavProje.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.DataAccess\\SinavProje.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.DataAccess\\SinavProje.DataAccess.csproj",
+        "projectName": "SinavProje.DataAccess",
+        "projectPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.DataAccess\\SinavProje.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\sinan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sinan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Core\\SinavProje.Core.csproj": {
+                "projectPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Core\\SinavProje.Core.csproj"
+              },
+              "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Entities\\SinavProje.Entities.csproj": {
+                "projectPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Entities\\SinavProje.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Entities\\SinavProje.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Entities\\SinavProje.Entities.csproj",
+        "projectName": "SinavProje.Entities",
+        "projectPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Entities\\SinavProje.Entities.csproj",
+        "packagesPath": "C:\\Users\\sinan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sinan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

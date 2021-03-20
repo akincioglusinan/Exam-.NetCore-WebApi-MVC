@@ -1,14 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using SinavProje.Business.Abstract;
 using SinavProje.Entities.Concrete.ClientEntities.Request;
 
 namespace SinavProje.Api.Controllers
 {
-    [Route("api/[controller]")]
+    [EnableCors("foo")]
+    [Route("[controller]")]
     [ApiController]
-    [Authorize]
     public class ExamController : Controller
     {
         private readonly IExamService _examService;
@@ -69,6 +70,7 @@ namespace SinavProje.Api.Controllers
             return BadRequest(resultQuestion.Message);
         }
 
+        [Authorize]
         [HttpPost("AddExam")]
         public async Task<IActionResult> AddExam(ExamRequest request)
         {
@@ -81,6 +83,8 @@ namespace SinavProje.Api.Controllers
             return BadRequest(result.Message);
         }
 
+        [Authorize]
+        [HttpGet("[action]/{id}")]
         public async Task<IActionResult> RemoveExam(int id)
         {
             var result = await _examService.Delete(id);

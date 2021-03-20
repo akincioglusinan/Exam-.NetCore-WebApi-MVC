@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SinavProje.DataAccess", "Si
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SinavProje.Core", "SinavProje.Core\SinavProje.Core.csproj", "{C80BA7B0-1DDB-4396-837A-D8319F999A41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinavProje.Api", "SinavProje.Api\SinavProje.Api.csproj", "{6978D02A-ACB4-4346-A03B-2FF44A07D573}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SinavProje.Api", "SinavProje.Api\SinavProje.Api.csproj", "{6978D02A-ACB4-4346-A03B-2FF44A07D573}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

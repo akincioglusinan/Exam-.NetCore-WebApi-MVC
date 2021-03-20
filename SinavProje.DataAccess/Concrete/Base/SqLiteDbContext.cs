@@ -11,6 +11,6 @@ namespace SinavProje.DataAccess.Concrete.Base
         public DbSet<Question> Questions { get; set; }
         
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-            => optionsBuilder.UseSqlite(@"Data Source=..\SinavProje.Entities\Concrete\Entities\Base\ExamProject.db");
+            => optionsBuilder.UseSqlite("Data Source=db\\ExamProject.db"); //@"Data Source=..\SinavProje.Entities\Concrete\Entities\Base\ExamProject.db"
     }
 }

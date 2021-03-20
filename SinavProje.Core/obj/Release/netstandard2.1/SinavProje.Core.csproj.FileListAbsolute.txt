@@ -1,0 +1,12 @@
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Core\bin\Release\netstandard2.1\SinavProje.Core.deps.json
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Core\bin\Release\netstandard2.1\SinavProje.Core.dll
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Core\bin\Release\netstandard2.1\SinavProje.Core.pdb
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Core\bin\Release\netstandard2.1\SinavProje.Entities.dll
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Core\bin\Release\netstandard2.1\SinavProje.Entities.pdb
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Core\obj\Release\netstandard2.1\SinavProje.Core.csprojAssemblyReference.cache
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Core\obj\Release\netstandard2.1\SinavProje.Core.AssemblyInfoInputs.cache
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Core\obj\Release\netstandard2.1\SinavProje.Core.AssemblyInfo.cs
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Core\obj\Release\netstandard2.1\SinavProje.Core.csproj.CoreCompileInputs.cache
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Core\obj\Release\netstandard2.1\SinavProje.Core.csproj.CopyComplete
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Core\obj\Release\netstandard2.1\SinavProje.Core.dll
+C:\Users\sinan\source\repos\SinavProje\SinavProje.Core\obj\Release\netstandard2.1\SinavProje.Core.pdb

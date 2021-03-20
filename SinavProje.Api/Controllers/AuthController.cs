@@ -5,7 +5,7 @@ using SinavProje.Entities.Concrete.ClientEntities.Request;
 
 namespace SinavProje.Api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class AuthController : Controller
     {

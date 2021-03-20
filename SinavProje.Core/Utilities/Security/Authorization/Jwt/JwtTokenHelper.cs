@@ -34,6 +34,10 @@ namespace SinavProje.Core.Utilities.Security.Authorization.Jwt
             {
                 Token = token,
                 Expiration = _accessTokenExpiration,
+                UserName = user.UserName,
+                UserId = user.Id,
+                Email = user.Email,
+                Name = user.Name
             };
         }
         private JwtSecurityToken CreateJwtSecurityToken(TokenOptions tokenOptions, User user, SigningCredentials signingCredentials)
