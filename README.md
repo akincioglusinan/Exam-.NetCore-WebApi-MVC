@@ -139,7 +139,10 @@ Body:
 ### Login
 If the register request returned 200 ok, you can login and get the Token code with following JSON code,
 
+`https://api.exam.logospathos.com/auth/login`
+
 Body:
+
     {
     "email":"aliveli@dot.com",
     "password":"54321"
