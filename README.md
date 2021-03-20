@@ -5,9 +5,10 @@
 
 It offers creating English exams based on published articles of wired.com.
 
-Exam project occures 5-tier onion architecture. 
+Exam project occures 5-Tiers Onion Architecture. 
 
-Core layer is the top and then Entity, DataAccess, Business and Api or MVC.
+Core layer is at the top with Entity, DataAccess and the sub layers Business and Api or MVC. 
+For Authentication is used Jwt Token and for database is used SqLite.
 
 The project has been designed two different parts, .Net Core MVC and the other one .Net Core Web-Api.
 
