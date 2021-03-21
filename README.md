@@ -149,7 +149,7 @@ Body:
     "password":"54321"
     }
     
-it will return such like a Json code, 
+it will return Json code, 
     
     {
     "token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFyJVc2VySWQiOiIxIiwiZW1haWwiOiJzaW5hbkBkb3QuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vc...", 
