@@ -17,6 +17,7 @@ MVC and Api have been deployed to my own host service.
 # .Net Core Api
 
 Web-Api side is alive on https://api.exam.logospathos.com
+
 UI side is alive on https://createxam.logospathos.com
 
 I designed UI side by React.js. For testing; email:admin@admin.com password: admin
