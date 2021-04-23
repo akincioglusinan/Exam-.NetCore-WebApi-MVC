@@ -16,9 +16,9 @@ MVC and Api have been deployed to my own host service.
 
 # .Net Core Api
 
-Web-Api side is alive on https://api.exam.logospathos.com
+Web-Api side runs on https://api.exam.logospat.com
 
-UI side is alive on https://createxam.logospathos.com
+UI side runs on https://createxam.logospat.com
 
 I designed UI side by React.js. For testing; email:admin@admin.com password: admin
 
@@ -30,7 +30,7 @@ You can use Postman program for requesting.
 
 ### Get Articles
 
-`https://api.exam.logospathos.com/exam/getarticles`
+`https://api.exam.logospat.com/exam/getarticles`
 
 it gets latest 5 articles information released in wired.com
 
@@ -83,19 +83,19 @@ Select POST operation lastly and send. If it will return status code 200 and wil
 
 ### Get Exams
 
-`https://api.exam.logospathos.com/exam/`
+`https://api.exam.logospat.com/exam/`
 
 The request gets being created exams by users.
 
 ### Get Exam
 
-`https://api.exam.logospathos.com/exam/getexam/{the exam id}`
+`https://api.exam.logospat.com/exam/getexam/{the exam id}`
 
 It gets the exam information who you want to take.
 
 For example;
 
-`https://api.exam.logospathos.com/exam/getexam/60`
+`https://api.exam.logospat.com/exam/getexam/60`
 
  This will return the following JSON data:
 
@@ -127,7 +127,7 @@ For example;
 ### Register
 To having an account requests POST in Postman;
 
-`https://api.exam.logospathos.com/auth/register`
+`https://api.exam.logospat.com/auth/register`
 
 Body:
  
@@ -142,7 +142,7 @@ Body:
 ### Login
 If the register request returned 200 ok, you can login and get the Token code with following JSON code,
 
-`https://api.exam.logospathos.com/auth/login`
+`https://api.exam.logospat.com/auth/login`
 
 Body:
 
@@ -164,6 +164,6 @@ it will return Json code,
      
 # .Net Core MVC
 
-The .Net Core MVC part is alive on https://exam.logospathos.com/
+The .Net Core MVC part runs on https://exam.logospat.com/
 
 For testing, email:admin@admin.com password:admin
