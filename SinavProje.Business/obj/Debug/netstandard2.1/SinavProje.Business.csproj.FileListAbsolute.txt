@@ -30,3 +30,4 @@ C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Busin
 C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Business\obj\Debug\netstandard2.1\SinavProje.Business.csproj.CoreCompileInputs.cache
 C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Business\obj\Debug\netstandard2.1\SinavProje.Business.dll
 C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Business\obj\Debug\netstandard2.1\SinavProje.Business.pdb
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Business\obj\Debug\netstandard2.1\SinavProje.Business.csproj.CopyComplete
