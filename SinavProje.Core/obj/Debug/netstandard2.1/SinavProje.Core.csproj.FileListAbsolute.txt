@@ -22,4 +22,3 @@ C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Core\
 C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Core\obj\Debug\netstandard2.1\SinavProje.Core.csproj.CoreCompileInputs.cache
 C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Core\obj\Debug\netstandard2.1\SinavProje.Core.dll
 C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Core\obj\Debug\netstandard2.1\SinavProje.Core.pdb
-C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Core\obj\Debug\netstandard2.1\SinavProje.Core.csproj.CopyComplete

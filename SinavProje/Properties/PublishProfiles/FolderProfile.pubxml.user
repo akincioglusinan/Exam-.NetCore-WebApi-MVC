@@ -4,6 +4,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <_PublishTargetUrl>C:\Users\sinan\Desktop\ExamProject</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\Publishes\ExamMVC</_PublishTargetUrl>
+    <History>True|2022-05-22T19:52:26.1637681Z;</History>
   </PropertyGroup>
 </Project>

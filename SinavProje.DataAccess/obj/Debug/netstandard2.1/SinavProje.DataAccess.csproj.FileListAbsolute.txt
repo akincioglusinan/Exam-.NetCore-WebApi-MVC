@@ -26,4 +26,3 @@ C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.DataA
 C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.DataAccess\obj\Debug\netstandard2.1\SinavProje.DataAccess.csproj.CoreCompileInputs.cache
 C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.DataAccess\obj\Debug\netstandard2.1\SinavProje.DataAccess.dll
 C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.DataAccess\obj\Debug\netstandard2.1\SinavProje.DataAccess.pdb
-C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.DataAccess\obj\Debug\netstandard2.1\SinavProje.DataAccess.csproj.CopyComplete
