@@ -22,7 +22,7 @@ namespace SinavProje.Business.Concrete
                 HtmlDocument doc = new HtmlDocument();
                 doc.Load(stream);
                 HtmlNodeCollection nodes =
-                    doc.DocumentNode.SelectNodes("//li/a[contains(@class, 'archive-item-component__link')]");
+                    doc.DocumentNode.SelectNodes("//div/a[contains(@class, 'summary-item__hed-link')]");
                 List<ArticleResponse> articles = new List<ArticleResponse>();
 
                 for (int i = 0; articles.Count < 5; i++)
@@ -38,7 +38,7 @@ namespace SinavProje.Business.Concrete
                         .SelectSingleNode("//div[contains(@class, 'grid-layout__content')]") != null)
                     {
                         article.Title = String.Join("", doc.DocumentNode
-                            .SelectSingleNode("//h1[contains(@class, 'content-header__row content-header__hed')]")
+                            .SelectSingleNode("//h1[contains(@class, 'ContentHeaderHed')]")
                             .InnerText.Replace("&#8212;", "'").Replace("&#39;", "'"));
                         article.Content = doc.DocumentNode
                             .SelectSingleNode("//div[contains(@class, 'grid-layout__content')]").InnerText.Replace("&#x27;", "'").Replace("&#39;", "'");
@@ -48,7 +48,7 @@ namespace SinavProje.Business.Concrete
 
                 return new SuccessDataResult<List<ArticleResponse>>(articles);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return new ErrorDataResult<List<ArticleResponse>>(Messages.GetArticlesError);
             }

@@ -14,3 +14,20 @@ C:\Users\sinan\source\repos\SinavProje\SinavProje.Business\obj\Release\netstanda
 C:\Users\sinan\source\repos\SinavProje\SinavProje.Business\obj\Release\netstandard2.1\SinavProje.Business.csproj.CopyComplete
 C:\Users\sinan\source\repos\SinavProje\SinavProje.Business\obj\Release\netstandard2.1\SinavProje.Business.dll
 C:\Users\sinan\source\repos\SinavProje\SinavProje.Business\obj\Release\netstandard2.1\SinavProje.Business.pdb
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Business\bin\Release\netstandard2.1\SinavProje.Business.deps.json
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Business\bin\Release\netstandard2.1\SinavProje.Business.dll
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Business\bin\Release\netstandard2.1\SinavProje.Business.pdb
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Business\bin\Release\netstandard2.1\SinavProje.Core.dll
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Business\bin\Release\netstandard2.1\SinavProje.DataAccess.dll
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Business\bin\Release\netstandard2.1\SinavProje.Entities.dll
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Business\bin\Release\netstandard2.1\SinavProje.Core.pdb
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Business\bin\Release\netstandard2.1\SinavProje.DataAccess.pdb
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Business\bin\Release\netstandard2.1\SinavProje.Entities.pdb
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Business\obj\Release\netstandard2.1\SinavProje.Business.csproj.AssemblyReference.cache
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Business\obj\Release\netstandard2.1\SinavProje.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Business\obj\Release\netstandard2.1\SinavProje.Business.AssemblyInfoInputs.cache
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Business\obj\Release\netstandard2.1\SinavProje.Business.AssemblyInfo.cs
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Business\obj\Release\netstandard2.1\SinavProje.Business.csproj.CoreCompileInputs.cache
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Business\obj\Release\netstandard2.1\SinavProje.Business.csproj.CopyComplete
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Business\obj\Release\netstandard2.1\SinavProje.Business.dll
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Business\obj\Release\netstandard2.1\SinavProje.Business.pdb

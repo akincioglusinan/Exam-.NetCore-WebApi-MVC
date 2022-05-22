@@ -4,6 +4,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <_PublishTargetUrl>C:\Users\sinan\Desktop\ExamProject\api</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\Publishes\ExamApi</_PublishTargetUrl>
+    <History>True|2022-05-22T18:59:20.8387663Z;False|2022-05-22T21:57:11.5899712+03:00;</History>
   </PropertyGroup>
 </Project>

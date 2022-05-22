@@ -1850,23 +1850,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sinan\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Sinan Akincioglu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Api\\SinavProje.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.Api\\SinavProje.Api.csproj",
       "projectName": "SinavProje.Api",
-      "projectPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Api\\SinavProje.Api.csproj",
-      "packagesPath": "C:\\Users\\sinan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Api\\obj\\",
+      "projectPath": "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.Api\\SinavProje.Api.csproj",
+      "packagesPath": "C:\\Users\\Sinan Akincioglu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.Api\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\sinan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sinan Akincioglu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1880,8 +1876,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Business\\SinavProje.Business.csproj": {
-              "projectPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Business\\SinavProje.Business.csproj"
+            "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.Business\\SinavProje.Business.csproj": {
+              "projectPath": "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.Business\\SinavProje.Business.csproj"
             }
           }
         }
@@ -1925,6 +1921,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.20, 3.1.20]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -1933,7 +1935,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

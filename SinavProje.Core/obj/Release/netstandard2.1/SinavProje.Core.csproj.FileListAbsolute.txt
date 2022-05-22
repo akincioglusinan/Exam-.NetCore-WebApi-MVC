@@ -10,3 +10,16 @@ C:\Users\sinan\source\repos\SinavProje\SinavProje.Core\obj\Release\netstandard2.
 C:\Users\sinan\source\repos\SinavProje\SinavProje.Core\obj\Release\netstandard2.1\SinavProje.Core.csproj.CopyComplete
 C:\Users\sinan\source\repos\SinavProje\SinavProje.Core\obj\Release\netstandard2.1\SinavProje.Core.dll
 C:\Users\sinan\source\repos\SinavProje\SinavProje.Core\obj\Release\netstandard2.1\SinavProje.Core.pdb
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Core\bin\Release\netstandard2.1\SinavProje.Core.deps.json
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Core\bin\Release\netstandard2.1\SinavProje.Core.dll
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Core\bin\Release\netstandard2.1\SinavProje.Core.pdb
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Core\bin\Release\netstandard2.1\SinavProje.Entities.dll
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Core\bin\Release\netstandard2.1\SinavProje.Entities.pdb
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Core\obj\Release\netstandard2.1\SinavProje.Core.csproj.AssemblyReference.cache
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Core\obj\Release\netstandard2.1\SinavProje.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Core\obj\Release\netstandard2.1\SinavProje.Core.AssemblyInfoInputs.cache
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Core\obj\Release\netstandard2.1\SinavProje.Core.AssemblyInfo.cs
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Core\obj\Release\netstandard2.1\SinavProje.Core.csproj.CoreCompileInputs.cache
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Core\obj\Release\netstandard2.1\SinavProje.Core.csproj.CopyComplete
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Core\obj\Release\netstandard2.1\SinavProje.Core.dll
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Core\obj\Release\netstandard2.1\SinavProje.Core.pdb

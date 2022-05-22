@@ -6,3 +6,13 @@ C:\Users\sinan\source\repos\SinavProje\SinavProje.Entities\obj\Debug\netstandard
 C:\Users\sinan\source\repos\SinavProje\SinavProje.Entities\obj\Debug\netstandard2.1\SinavProje.Entities.csproj.CoreCompileInputs.cache
 C:\Users\sinan\source\repos\SinavProje\SinavProje.Entities\obj\Debug\netstandard2.1\SinavProje.Entities.dll
 C:\Users\sinan\source\repos\SinavProje\SinavProje.Entities\obj\Debug\netstandard2.1\SinavProje.Entities.pdb
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Entities\bin\Debug\netstandard2.1\SinavProje.Entities.deps.json
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Entities\bin\Debug\netstandard2.1\SinavProje.Entities.dll
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Entities\bin\Debug\netstandard2.1\SinavProje.Entities.pdb
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Entities\obj\Debug\netstandard2.1\SinavProje.Entities.csproj.AssemblyReference.cache
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Entities\obj\Debug\netstandard2.1\SinavProje.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Entities\obj\Debug\netstandard2.1\SinavProje.Entities.AssemblyInfoInputs.cache
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Entities\obj\Debug\netstandard2.1\SinavProje.Entities.AssemblyInfo.cs
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Entities\obj\Debug\netstandard2.1\SinavProje.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Entities\obj\Debug\netstandard2.1\SinavProje.Entities.dll
+C:\Users\Sinan Akincioglu\source\repos\Exam-.NetCore-WebApi-MVC\SinavProje.Entities\obj\Debug\netstandard2.1\SinavProje.Entities.pdb

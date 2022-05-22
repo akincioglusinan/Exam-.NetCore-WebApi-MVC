@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Business\\SinavProje.Business.csproj": {}
+    "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.Business\\SinavProje.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Business\\SinavProje.Business.csproj": {
+    "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.Business\\SinavProje.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Business\\SinavProje.Business.csproj",
+        "projectUniqueName": "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.Business\\SinavProje.Business.csproj",
         "projectName": "SinavProje.Business",
-        "projectPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Business\\SinavProje.Business.csproj",
-        "packagesPath": "C:\\Users\\sinan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Business\\obj\\",
+        "projectPath": "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.Business\\SinavProje.Business.csproj",
+        "packagesPath": "C:\\Users\\Sinan Akincioglu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.Business\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sinan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sinan Akincioglu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,14 +28,14 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Core\\SinavProje.Core.csproj": {
-                "projectPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Core\\SinavProje.Core.csproj"
+              "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.Core\\SinavProje.Core.csproj": {
+                "projectPath": "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.Core\\SinavProje.Core.csproj"
               },
-              "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.DataAccess\\SinavProje.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.DataAccess\\SinavProje.DataAccess.csproj"
+              "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.DataAccess\\SinavProje.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.DataAccess\\SinavProje.DataAccess.csproj"
               },
-              "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Entities\\SinavProje.Entities.csproj": {
-                "projectPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Entities\\SinavProje.Entities.csproj"
+              "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.Entities\\SinavProje.Entities.csproj": {
+                "projectPath": "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.Entities\\SinavProje.Entities.csproj"
               }
             }
           }
@@ -77,24 +74,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Core\\SinavProje.Core.csproj": {
+    "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.Core\\SinavProje.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Core\\SinavProje.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.Core\\SinavProje.Core.csproj",
         "projectName": "SinavProje.Core",
-        "projectPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Core\\SinavProje.Core.csproj",
-        "packagesPath": "C:\\Users\\sinan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Core\\obj\\",
+        "projectPath": "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.Core\\SinavProje.Core.csproj",
+        "packagesPath": "C:\\Users\\Sinan Akincioglu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sinan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sinan Akincioglu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -108,8 +102,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Entities\\SinavProje.Entities.csproj": {
-                "projectPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Entities\\SinavProje.Entities.csproj"
+              "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.Entities\\SinavProje.Entities.csproj": {
+                "projectPath": "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.Entities\\SinavProje.Entities.csproj"
               }
             }
           }
@@ -156,24 +150,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.DataAccess\\SinavProje.DataAccess.csproj": {
+    "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.DataAccess\\SinavProje.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.DataAccess\\SinavProje.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.DataAccess\\SinavProje.DataAccess.csproj",
         "projectName": "SinavProje.DataAccess",
-        "projectPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.DataAccess\\SinavProje.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\sinan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.DataAccess\\SinavProje.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Sinan Akincioglu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sinan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sinan Akincioglu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -187,11 +178,11 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Core\\SinavProje.Core.csproj": {
-                "projectPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Core\\SinavProje.Core.csproj"
+              "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.Core\\SinavProje.Core.csproj": {
+                "projectPath": "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.Core\\SinavProje.Core.csproj"
               },
-              "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Entities\\SinavProje.Entities.csproj": {
-                "projectPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Entities\\SinavProje.Entities.csproj"
+              "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.Entities\\SinavProje.Entities.csproj": {
+                "projectPath": "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.Entities\\SinavProje.Entities.csproj"
               }
             }
           }
@@ -230,24 +221,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Entities\\SinavProje.Entities.csproj": {
+    "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.Entities\\SinavProje.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Entities\\SinavProje.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.Entities\\SinavProje.Entities.csproj",
         "projectName": "SinavProje.Entities",
-        "projectPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Entities\\SinavProje.Entities.csproj",
-        "packagesPath": "C:\\Users\\sinan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sinan\\source\\repos\\SinavProje\\SinavProje.Entities\\obj\\",
+        "projectPath": "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.Entities\\SinavProje.Entities.csproj",
+        "packagesPath": "C:\\Users\\Sinan Akincioglu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sinan Akincioglu\\source\\repos\\Exam-.NetCore-WebApi-MVC\\SinavProje.Entities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sinan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sinan Akincioglu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -297,7 +285,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
